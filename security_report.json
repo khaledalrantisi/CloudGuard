@@ -1,0 +1,41 @@
+{
+  "report_date": "2026-05-06T17:23:30.274609",
+  "developer": "Khaled M.M. Alrantisi",
+  "project": "CloudGuard",
+  "summary": {
+    "total_issues": 4,
+    "critical": 4,
+    "medium": 0,
+    "low": 0
+  },
+  "findings": [
+    {
+      "severity": "CRITICAL",
+      "service": "EC2",
+      "resource": "sg-04f039820be5463a5",
+      "issue": "Port 22 open to the world (0.0.0.0/0)",
+      "recommendation": "Restrict access to specific IP ranges"
+    },
+    {
+      "severity": "CRITICAL",
+      "service": "EC2",
+      "resource": "sg-0a93eb7856786cc8b",
+      "issue": "Port 22 open to the world (0.0.0.0/0)",
+      "recommendation": "Restrict access to specific IP ranges"
+    },
+    {
+      "severity": "CRITICAL",
+      "service": "EC2",
+      "resource": "sg-0ccfc0f0057bc7ce3",
+      "issue": "Port 22 open to the world (0.0.0.0/0)",
+      "recommendation": "Restrict access to specific IP ranges"
+    },
+    {
+      "severity": "CRITICAL",
+      "service": "EC2",
+      "resource": "sg-02271e1c44d66f324",
+      "issue": "Port 22 open to the world (0.0.0.0/0)",
+      "recommendation": "Restrict access to specific IP ranges"
+    }
+  ]
+}
